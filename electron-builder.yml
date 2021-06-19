@@ -1,0 +1,12 @@
+appId: com.vsys.v-swap
+productName: v-swap
+copyright: vsys
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
