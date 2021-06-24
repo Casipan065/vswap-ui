@@ -2,8 +2,7 @@ import React from 'react';
 import {Box, Button, Popover, Typography} from "@material-ui/core";
 
 const SettingIcon = () => <svg viewBox="0 0 24 24" aria-hidden="true" width={24}>
-  <g       fill="red"
-  >
+  <g>
     <path
       d="M12 8.21c-2.09 0-3.79 1.7-3.79 3.79s1.7 3.79 3.79 3.79 3.79-1.7 3.79-3.79-1.7-3.79-3.79-3.79zm0 6.08c-1.262 0-2.29-1.026-2.29-2.29S10.74 9.71 12 9.71s2.29 1.026 2.29 2.29-1.028 2.29-2.29 2.29z"/>
     <path

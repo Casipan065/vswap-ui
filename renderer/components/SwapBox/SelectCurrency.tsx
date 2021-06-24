@@ -23,39 +23,35 @@ const SelectCurrency = ({currency, changeCurrency}) => {
 
   return (
     <Box>
-      <Box onClick={handleClickOpen} width={'30%'} color={COLOR.ORANGE}>
-        <Typography>
+      <Box  onClick={handleClickOpen} width={'30%'} color={COLOR.ORANGE}
+            display={'flex'} flexDirection={'row'}
+      >
+        {/*<Typography>*/}
           {currency}
 
-        </Typography>
+        {/*</Typography>*/}
         <ArrowDownFilledTriangle/>
       </Box>
 
       <Dialog onClose={handleClose} open={open}>
 
         <DialogContent style={{width: '289px'}}>
-          <center>
 
             <Typography>
               Select Token
             </Typography>
-          </center>
           <TextField placeholder={'Search name or paste address'} variant={'outlined'}/>
 
-          <center>
             <Typography>
               Most Popular
             </Typography>
-          </center>
 
           <Divider variant={'fullWidth'}/>
 
 
-          <center>
             <Typography>
               FULL LIST
             </Typography>
-          </center>
 
 
           <Button>
