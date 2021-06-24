@@ -35,7 +35,7 @@ const Header = () => {
         <Grid item xs={6}  style={{textAlign:'center'}}>
           {
             routers.map(({href, label}) => {
-              return <Link className={classes.link} href={href}> {label}</Link>
+              return <Link key={href} className={classes.link} href={href}> {label}</Link>
             })
           }
         </Grid>

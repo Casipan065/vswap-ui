@@ -8,15 +8,16 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogActions from '@material-ui/core/DialogActions';
 import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
 import Link from '../components/Link';
+import {COLOR} from '../components/constants'
+import SwapBox from '../components/SwapBox'
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       textAlign: 'center',
-      paddingTop: theme.spacing(4),
-      backgroundColor: '#313134',
+      padding: theme.spacing(4),
+      backgroundColor: COLOR.GREY,
       color: 'white'
     },
   })
@@ -41,9 +42,7 @@ function Index() {
         Enter one of the amountsand tadaaaaa. It's done!
       </Typography>
 
-      <Box>
-
-      </Box>
+      <SwapBox/>
     </div>
   </React.Fragment>
 }

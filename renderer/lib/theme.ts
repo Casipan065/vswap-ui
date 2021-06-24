@@ -1,8 +1,16 @@
 import {createMuiTheme} from '@material-ui/core/styles';
-import red from '@material-ui/core/colors/red';
+import {COLOR} from "../components/constants";
 
 export const theme = createMuiTheme({
   shape: {
-    borderRadius: 10
+    borderRadius: 20
+  },
+  overrides:{
+    MuiDialogContent:{
+      root:{
+        backgroundColor: COLOR.ORANGE,
+        // color:COLOR.DARK_GREY
+      }
+    }
   }
 });

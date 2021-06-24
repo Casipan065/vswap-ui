@@ -1,8 +1,7 @@
 import React from 'react';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import {makeStyles, createStyles, Theme} from '@material-ui/core/styles';
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
-
 
 
 const Footer = () => {
@@ -15,28 +14,32 @@ const Footer = () => {
         direction="row"
         justify="space-between"
         alignItems="center"
-        spacing={2}
+        spacing={3}
       >
         <Grid item xs={4}>
           <img src={`images/long_logo.svg`}
                alt={`logo image`}
-               height={65}/>
+               height={38}/>
 
         </Grid>
         <Grid item xs={4}>
 
         </Grid>
+        <Grid item xs={4}>
+
         </Grid>
-      </Container>
+      </Grid>
+    </Container>
   );
 };
 
 const useStyles = makeStyles((theme: Theme) =>
-    createStyles({
-      root: {
-      },
+  createStyles({
+    root: {
+      padding: '1rem',
+    },
 
-    }),
+  }),
 );
 
 export default Footer;
