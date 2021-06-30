@@ -5,7 +5,7 @@ const VButton = () => {
 
 
   return (
-<Box backgroundColor={'red'}>
+<Box >
   <Button>as</Button>
 </Box>
   )
