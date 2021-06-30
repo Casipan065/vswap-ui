@@ -1,7 +1,6 @@
 ## Install Dependencies
 
 ```
-
 # using yarn or npm
 $ yarn (or `npm install`) 
 ```
