@@ -46,8 +46,8 @@ const VTable = ({data}:any) => {
 const useStyles = makeStyles ({
     table: {
         minWidth: 650,
-        // backgroundColor: COLOR.DARK_GREY,
-        // color:COLOR.ORANGE
+        backgroundColor: COLOR.DARK_GREY,
+        color:COLOR.ORANGE
     }
 });
 
